@@ -6,6 +6,8 @@ import store from './store';
 
 import Posts from './components/posts';
 import PostForm from './components/postform';
+import DisplayChange from './components/displaychange';
+import Change from './components/change';
 
 
 class App extends Component {
@@ -15,6 +17,8 @@ class App extends Component {
         <div className="App">
           <PostForm />
           <hr />
+          <Change />
+          <DisplayChange />
           <Posts />
         </div>
       </Provider>
